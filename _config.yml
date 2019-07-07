@@ -1,1 +1,26 @@
+baseurl:
+
+# site settings
+# Site settings
 name: Kissos Products
+description: Kissos Products - High quality traditional products from Greece
+meta_description: "High quality traditional products from all over Greece to the rest of Europe and worldwide"
+logo: 'img/logo-kissos.png'
+favicon: 'favicon.png'
+title: 'Kissos Products - High quality traditional products from Greece'
+email: 'info@kissos-products.com'
+phones: 
+  - title: 'GR +306946123578'
+    value: +30 6946123578
+  - title: 'BG +359877578992'
+    value: '+359877578992'
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title:  facebook
+    url:  https://www.facebook.com/kissosproducts/
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: "Please contact us:"
+  - line: Mr. TSAVEAS KOSTAS

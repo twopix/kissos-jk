@@ -1,0 +1,24 @@
+.fullscreen .container, .fullscreen .container > .row, .module-cover-slides .container, .module-cover-slides .container > .row{height:100%;}
+.fullscreen .container > .row, .module-cover-slides .container > .row{-webkit-box-align:center;-ms-flex-align:center;align-items:center;}
+section.masthead{padding:0;}
+.slides-navigation{margin:-35px auto 0;position:absolute;z-index:3;top:50%;width:100%;}
+.slides-navigation a{position:absolute;height:70px;width:70px;top:50%;font-size:20px;display:block;color:#000;transition:all .3s ease-in-out;}
+.slides-navigation a span:before{line-height:70px;}
+.slides-navigation a.next{text-align:right;right:15px;}
+.slides-navigation a.next:hover{right:10px;}
+.slides-navigation a.prev{text-align:left;left:15px;}
+.slides-navigation a.prev:hover{left:10px;}
+.slides-pagination{position:absolute;text-align:center;width:100%;bottom:20px;z-index:2;}
+.slides-pagination > a{letter-spacing:1.5px;font-weight:bold;font-size:.75rem;color:#000;opacity:.5;transition:all ease-in .5s;}
+.slides-pagination > a:before{content:"0";}
+.slides-pagination > a:after{background:#000;content:"";height:1px;width:0;display:inline-block;vertical-align:middle;margin:0 15px 0 15px;transition:all ease-in .5s;}
+.slides-pagination > a.current{opacity:1;}
+.slides-pagination > a.current:after{width:50px;}
+@media (max-width:767.98px){.slides-navigation{display:none;}
+}
+.levander-bg, .mountain-bg, .figs-bg, .olive-bg{height:50vh;display:block;background-repeat:no-repeat;background-size:contain;background-position:center;}
+.levander-bg{background-image:url(../img/lavender.png);}
+.mountain-bg{background-image:url(../img/mountain-tea-greece.png);}
+.olive-bg{background-image:url(../img/ladia.png);}
+.figs-bg{}
+.mountain-txt{background:#2b3e2080;color:white;border-radius:8px;padding-top:1rem;}
