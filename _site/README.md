@@ -2,4 +2,5 @@
 
 Clone and run
 
-jekyll serve
+jekyll serve or 
+bundle exec jekyll serve

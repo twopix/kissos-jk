@@ -33,6 +33,7 @@
 <meta name="msapplication-TileColor" content="#ffffff">
 <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
 <meta name="theme-color" content="#ffffff">
+<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 
 <body id="page-top">
@@ -50,19 +51,7 @@
                 <ul class="navbar-nav ml-auto">
                     
                     <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="/">Home</a>
-                    </li>
-                    
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#about">About</a>
-                    </li>
-                    
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#products">Products</a>
-                    </li>
-                    
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+                        <a class="nav-link js-scroll-trigger" href=""></a>
                     </li>
                     
                 </ul>
@@ -1267,7 +1256,17 @@ Single serving packing 20gr/portion</a>
 
         gtag('config', 'UA-19091512-68');
     </script>
-
+    <script>
+        if (window.netlifyIdentity) {
+            window.netlifyIdentity.on("init", user => {
+                if (!user) {
+                    window.netlifyIdentity.on("login", () => {
+                        document.location.href = "/admin/";
+                    });
+                }
+            });
+        }
+    </script>
 </body>
 
 </html>

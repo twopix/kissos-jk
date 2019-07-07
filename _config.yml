@@ -24,3 +24,14 @@ social:
 address:
   - line: "Please contact us:"
   - line: Mr. TSAVEAS KOSTAS
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
