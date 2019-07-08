@@ -15,6 +15,9 @@ phones:
   - title: 'BG +359877578992'
     value: '+359877578992'
 
+
+url: "kissos-products.com" # the base hostname & protocol for your site, e.g. http://example.com
+
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title:  facebook
