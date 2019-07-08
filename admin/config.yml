@@ -1,9 +1,11 @@
 # config.yml
 
 backend:
-  name: git-gateway
-  branch: master # Branch to update (optional; defaults to master)
-media_folder: 'assets/uploads'
+  name: github
+  repo: twopix/kissos-jk
+  branch: master
+  site_domain: https://kissos-products.com
+media_folder: 'img'
 collections:
   - name: "config"
     label: "Config"
