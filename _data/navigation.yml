@@ -3,6 +3,8 @@ items:
     link: /
   - name: About
     link: "#about"
+  - name: Services
+    link: "#further-services"
   - name: Products
     link: "#products"
   - name: Contact
